@@ -29,6 +29,20 @@
             <label for="feedback">feedback message</label>
             <input type="text" class="form-control"row="4" name="feedback" id="feedback" placeholder="Enter your feedback message">
         </div>
+        <div class="mb-3">
+            <label class="form-label">preferred contact method:</label>
+            <div class="form-check">
+                <label  class="form-check-label">
+                    <input type="radio" class="form-check-input"name="optradio">Email</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                <input type="radio"class="form-check-input" name="optradio">phone</label>
+            </div>
+            <label for="satisfaction"class="form-label">Satisfaction level(1-10)</label>
+            <input type="range"class="form-range"min="1"max="10" id="satisfaction">
+
+        </div>
         <div class="dropdown">
             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Choose the type of order</button>
             <div class="dropdown-menu">
